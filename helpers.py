@@ -32,7 +32,7 @@ def grade_calculator():
 
 
 # ==========================================
-# 2. Budget Tracker (Updated with Lists)
+# 2. Budget Tracker 
 # ==========================================
 def budget_tracker():
     print("Welcome to the Budget Tracker!")
