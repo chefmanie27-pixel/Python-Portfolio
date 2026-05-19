@@ -35,3 +35,18 @@ python-mini-toolkit/
   ├── helpers.py       # Custom module housing the functional mini-tools
   ├── README.md        # Project documentation and reflection
   └── screenshots/     # Terminal execution screenshots demonstrating functionality
+
+Challenges Faced & Key Learnings
+Challenges
+File Separation and Scope: One of the main challenges was understanding how to import functions from a custom module (helpers.py) into the main runner (main.py) without breaking global scopes—specifically ensuring the random module was available exactly where it was needed.
+
+Fulfilling Data Structure Requirements: Initially, expenses were just tracked as a running total. Modifying the program to store data dynamically required implementing a list of dictionaries to properly hold both the expense name and amount.
+
+What I Learned & Future Improvements
+I learned how to build robust input verification loops to gracefully handle typos and invalid entries without crashing the terminal.
+
+Future Improvements: In the future, I would like to add a data persistence feature (such as saving budget logs to a .txt or .json file) so that user data is saved even after exiting the program.
+
+Author
+
+Azhar Manie - Trainee Developer at Life Choices
