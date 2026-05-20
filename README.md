@@ -38,6 +38,13 @@ I learned how to build robust input verification loops to gracefully handle typo
 
 Future Improvements: In the future, I would like to add a data persistence feature (such as saving budget logs to a .txt or .json file) so that user data is saved even after exiting the program.
 
+## How to Run
+* Download the helpers.py and main.py files.
+* Open it up with the latest version of Visual Studio Code.
+* Make sure you have the code runner extension installed.
+* To run the code in terminal press: Ctrl + Alt + N or Tap the run button on the top right of the window.
+* Select an option and enjoy!
+
 Author
 
 Azhar Manie - Trainee Developer at Life Choices
