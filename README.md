@@ -27,16 +27,7 @@ This project successfully demonstrates and integrates the following core Python 
 * **Modules:** Imported Python's built-in `random` module alongside a custom `helpers` module to separate the menu driver from application logic.
 * **Error Handling:** Implemented `try/except` blocks to catch `ValueError` exceptions and prevent the application from crashing on invalid user input.
 
----
-
-```text
-python-mini-toolkit/
-  ├── main.py          # The entry point containing the main menu loop
-  ├── helpers.py       # Custom module housing the functional mini-tools
-  ├── README.md        # Project documentation and reflection
-  └── screenshots/     # Terminal execution screenshots demonstrating functionality
-
-Challenges Faced & Key Learnings
+## Challenges Faced & Key Learnings
 Challenges
 File Separation and Scope: One of the main challenges was understanding how to import functions from a custom module (helpers.py) into the main runner (main.py) without breaking global scopes—specifically ensuring the random module was available exactly where it was needed.
 
@@ -50,3 +41,14 @@ Future Improvements: In the future, I would like to add a data persistence featu
 Author
 
 Azhar Manie - Trainee Developer at Life Choices
+
+
+---
+
+```text
+python-mini-toolkit/
+  ├── main.py          # The entry point containing the main menu loop
+  ├── helpers.py       # Custom module housing the functional mini-tools
+  ├── README.md        # Project documentation and reflection
+  └── screenshots/     # Terminal execution screenshots demonstrating functionality
+
