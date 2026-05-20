@@ -116,21 +116,22 @@ def guessing_game():
     while attempts < max_attempts:
         try:
             remaining_attempts = max_attempts - attempts
-            print(f"Attempts remaining: {remaining_attempts}")
+            print(f"\nAttempts remaining: {remaining_attempts}")
 
-            guess = int(input("Enter your guess: "))
+            guess = int(input("\nEnter your guess: "))
             attempts += 1 
 
             if guess < random_number:
-                print("Too low!")
+                print("\nToo low!")
             elif guess > random_number:
-                print("Too high!")
+                print("\nToo high!")
             else:
-                print("Congratulations, you have found the correct number. \nYOU WON!!!")
+                print("\nCongratulations, you have found the correct number. \nYOU WON!!!")
                 return
 
         except ValueError:
             print("Invalid! Please enter a valid number.")
 
-    print("You have reached the max attempts. Better luck next time")
-    print(f"The secret number was {random_number}")
+    print("\nYou have reached the max attempts. Better luck next time")
+    print(f"\nThe secret number was {random_number}")
+
